@@ -154,6 +154,14 @@ div.tagline {
     28% { opacity: 0 }
     100% { opacity: 0 }
 }
+@-webkit-keyframes imageAnimation { 
+    0% { opacity: 0; animation-timing-function: ease-in; }
+    4% { opacity: 1; animation-timing-function: ease-out; }
+    20% { opacity: 1 }
+    24% { opacity: 1 }
+    28% { opacity: 0 }
+    100% { opacity: 0 }
+}
 .no-cssanimations .cb-slideshow li span{
 	opacity: 1;
 }
