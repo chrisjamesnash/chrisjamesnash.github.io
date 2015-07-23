@@ -7,8 +7,8 @@ body{
   margin-right:auto;
   margin-top:0;
   margin-bottom:0;
-  font-family: 'Actor', sans-serif;
-  background-color:#E6E6F0;
+  font-family: Tahoma, Helvetica;
+  background-color:#E6E6EA;
  }
 div.contentblock{
   width:960px;
@@ -21,9 +21,6 @@ hr{
   border:0;
   background-color:#00002E;
   }
-a {
-  color:#808096;
-  } 
   
 /* Header */
 header {
@@ -70,7 +67,7 @@ ul.navigation li{
     float:right;
     }
 ul.navigation li a{
-    color:#00000E;
+    color:white;
     text-decoration:none;
     font-size: 18px;
     }
@@ -81,9 +78,6 @@ ul.navigation li.highlight a{
    color:#808096;
    cursor:default;
    }
-ul.navigation li.homenh a{
-    color:white;
-    } 
 div.taglinecontainer {
    float:right;
    clear:right;
@@ -131,54 +125,41 @@ div.tagline {
     background-repeat: none;
     opacity: 0;
     z-index: 0;
-    animation: imageAnimation 48s linear infinite 0s;
-    -webkit-animation-name: imageAnimation;
-    -webkit-animation-duration: 48s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-delay: 0s;
+    animation: imageAnimation 40s linear infinite 0s; 
 }
 .cb-slideshow li:nth-child(1) span { 
     background-image:url("../headerphotos/bannerphoto.jpg");
 }
 .cb-slideshow li:nth-child(2) span { 
-    background-image:url("../headerphotos/bannerphoto1.jpg");
-    animation-delay: 8s;
-    -webkit-animation-delay: 8s; 
+    background-image:url("../headerphotos/bannerphoto2.jpg");
+    animation-delay: 8s; 
 }
 .cb-slideshow li:nth-child(3) span { 
-    background-image:url("../headerphotos/bannerphoto2.jpg");
-    animation-delay: 16s;
-    -webkit-animation-delay: 16s; 
+    background-image:url("../headerphotos/bannerphoto3.jpg");
+    animation-delay: 16s; 
 }
 .cb-slideshow li:nth-child(4) span { 
-    background-image:url("../headerphotos/bannerphoto3.jpg");
-    animation-delay: 24s;
-    -webkit-animation-delay: 24s; 
+    background-image:url("../headerphotos/bannerphoto4.jpg");
+    animation-delay: 24s; 
 }
 .cb-slideshow li:nth-child(5) span { 
-    background-image:url("../headerphotos/bannerphoto4.jpg");
-    animation-delay: 32s;
-    -webkit-animation-delay: 32s; 
-}
-.cb-slideshow li:nth-child(6) span { 
     background-image:url("../headerphotos/bannerphoto5.jpg");
-    animation-delay: 40s;
-    -webkit-animation-delay: 40s; 
+    animation-delay: 32s; 
 }
 @keyframes imageAnimation { 
     0% { opacity: 0; animation-timing-function: ease-in; }
-    3% { opacity: 1; animation-timing-function: ease-out; }
-    16.7% { opacity: 1 }
-    19.7% { opacity: 1 }
-    22.7% { opacity: 0 }
+    4% { opacity: 1; animation-timing-function: ease-out; }
+    20% { opacity: 1 }
+    24% { opacity: 1 }
+    28% { opacity: 0 }
     100% { opacity: 0 }
 }
 @-webkit-keyframes imageAnimation { 
     0% { opacity: 0; animation-timing-function: ease-in; }
-    3% { opacity: 1; animation-timing-function: ease-out; }
-    16.7% { opacity: 1 }
-    19.7% { opacity: 1 }
-    22.7% { opacity: 0 }
+    4% { opacity: 1; animation-timing-function: ease-out; }
+    20% { opacity: 1 }
+    24% { opacity: 1 }
+    28% { opacity: 0 }
     100% { opacity: 0 }
 }
 .no-cssanimations .cb-slideshow li span{
@@ -210,8 +191,9 @@ div.soundcloud{
   }
    h4 {
     color:#00000E;
-    font-weight:bold;
+    font-weight:normal;
     font-size:18px;
+    text-decoration:underline;
     margin:0;
   }
  p {
@@ -229,7 +211,7 @@ div.headshot {
    float:right;
    clear:right;
    width:400px;
-   padding:20px 0px;
+   padding:0px 0px;
  }
 div.gallery {
    float:left;
@@ -244,7 +226,7 @@ div.gallery ul{
 }   
 div.gallery li{
  margin:0;
- padding:3.9px;
+ padding:4px;
  display:block;
  float:left;
  background:white;
